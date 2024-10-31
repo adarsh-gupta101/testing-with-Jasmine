@@ -1,0 +1,16 @@
+{
+  "name": "writing-unit-tests-for-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "node spec/support/reporter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.4.0",
+    "jasmine-console-reporter": "^3.1.0"
+  }
+}
