@@ -1,0 +1,16 @@
+{
+  "name": "testing-asynchronous-code",
+  "version": "1.0.0",
+  "description": "Asynchronous operations are the most common part of modern JavaScript applications [dealing with APIs, database calls, or timeouts.]",
+  "main": "userService.js",
+  "scripts": {
+    "test": "node spec/support/reporter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^5.4.0",
+    "jasmine-console-reporter": "^3.1.0"
+  }
+}
