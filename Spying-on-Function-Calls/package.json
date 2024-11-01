@@ -1,0 +1,16 @@
+{
+  "name": "spying-on-function-calls",
+  "version": "1.0.0",
+  "description": "Spies in Jasmine allow us to \"spy\" on the behavior of a function. use case:  useful when testing complex functions that rely on external dependencies or functions that are called multiple times [Jasmine Official Spying On Properties](https://jasmine.github.io/tutorials/spying_on_properties).",
+  "main": "scoreService.js",
+  "scripts": {
+    "test": "node spec/support/reporter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^5.4.0",
+    "jasmine-console-reporter": "^3.1.0"
+  }
+}
