@@ -1,0 +1,25 @@
+{
+  "name": "continuous-integration-with-jasmine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node spec/support/reporter.js",
+    "test:watch":"nodemon --exec spec/support/reporter.js",
+    "test:coverage": "nyc jasmine",
+    "lint": "eslint spec",
+    "ci": "npm run lint && npm run test:coverage && npm audit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^5.4.0",
+    "jasmine-console-reporter": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint":"8.56.0",
+    "nodemon": "^2.0.15",
+    "nyc": "^15.1.0"
+  }
+}
