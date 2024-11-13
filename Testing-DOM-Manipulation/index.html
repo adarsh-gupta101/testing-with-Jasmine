@@ -1,40 +1,50 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <meta charset="utf-8" />
     <title>User Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-        .error { color: red; display: none; }
-        .success { color: green; display: none; }
+      .error {
+        color: red;
+        display: none;
+      }
+      .success {
+        color: green;
+        display: none;
+      }
+  
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <form id="registrationForm">
-        <div>
-            <label for="username">Username:</label>
-            <input type="text" id="username" required>
-            <span id="usernameError" class="error">Username must be at least 3 characters</span>
-        </div>
-        
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" required>
-            <span id="emailError" class="error">Please enter a valid email</span>
-        </div>
-        
-        <div>
-            <label for="password">Password:</label>
-            <input type="password" id="password" required>
-            <span id="passwordError" class="error">Password must be at least 6 characters</span>
-        </div>
-        
-        <button type="submit">Register</button>
-        
-        <div id="successMessage" class="success">
-            Registration successful!
-        </div>
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" required />
+        <span id="usernameError" class="error"
+          >Username must be at least 3 characters</span
+        >
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+        <span id="emailError" class="error">Please enter a valid email</span>
+      </div>
+
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required />
+        <span id="passwordError" class="error"
+          >Password must be at least 6 characters</span
+        >
+      </div>
+
+      <button type="submit">Register</button>
+
+      <div id="successMessage" class="success">Registration successful!</div>
     </form>
 
     <script src="formHandler.js"></script>
-</body>
+  </body>
 </html>
