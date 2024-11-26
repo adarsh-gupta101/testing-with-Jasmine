@@ -1,5 +1,4 @@
-
-const calculator = require('../../calculator');
+const calculator = require("../../calculator");
 
 describe("Calculator Function Tests", () => {
   describe("Addition", () => {
@@ -30,7 +29,9 @@ describe("Calculator Function Tests", () => {
     });
 
     it("should throw an error when dividing by zero", () => {
-      expect(() => calculator.divide(10, 0)).toThrowError("Cannot divide by zero");
+      expect(() => calculator.divide(10, 0)).toThrowError(
+        "Cannot divide by zero"
+      );
     });
   });
 
@@ -40,3 +41,5 @@ describe("Calculator Function Tests", () => {
     });
   });
 });
+
+
