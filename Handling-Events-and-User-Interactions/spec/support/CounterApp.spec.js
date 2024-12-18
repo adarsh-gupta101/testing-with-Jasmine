@@ -46,7 +46,7 @@ describe('Counter App', () => {
         expect(counterApp.counterValue).toBe(-2);
         expect(counterApp.counterValueElement.textContent).toBe('-2');
     });
-
+ 
     it('should handle button clicks', () => {
         // Spy on the increment and decrement methods
         spyOn(counterApp, 'incrementCounter');

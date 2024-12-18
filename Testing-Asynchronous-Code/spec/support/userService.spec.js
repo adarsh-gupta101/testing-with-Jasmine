@@ -10,7 +10,7 @@ describe("fetchUserData", () => {
   });
 
   it("should return null for an invalid user ID", (done) => {
-    fetchUserData(3, (user) => {
+    fetchUserData("adarsh", (user) => {
       expect(user).toBeNull();
       done();
     });

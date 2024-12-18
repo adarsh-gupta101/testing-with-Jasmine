@@ -6,7 +6,7 @@ const weatherService = {
             Mumbai: { temp: 20, condition: 'Sunny' },
             Banglore: { temp: 25, condition: 'Cloudy' },
             Delhi: { temp: 22, condition: 'Rainy' }
-        };
+        }; 
 
         return new Promise((resolve, reject) => {
             setTimeout(() => {

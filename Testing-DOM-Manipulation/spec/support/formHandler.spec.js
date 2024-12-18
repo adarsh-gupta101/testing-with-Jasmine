@@ -39,7 +39,7 @@ describe('Form Handler', () => {
         });
 
         it('should validate email format', () => {
-            formHandler.emailInput.value = 'invalid-email';
+            formHandler.emailInput.value = 'invalid-email'; 
             expect(formHandler.validateEmail()).toBe(false);
             expect(formHandler.emailError.style.display).toBe('block');
 

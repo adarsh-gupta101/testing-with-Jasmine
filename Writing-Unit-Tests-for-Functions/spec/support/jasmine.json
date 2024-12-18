@@ -4,7 +4,6 @@
     "**/*[sS]pec.?(m)js"
   ],
   "helpers": [
-    "spec/helpers/CustomEmailMatcher.js",
     "spec/support/reporter.js"
   ],
   "env": {

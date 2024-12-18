@@ -1,7 +1,7 @@
 {
-  "name": "karma-jasmine-sample",
+  "name": "react-jasmine-karma",
   "version": "0.0.1",
-  "description": "An example of using the Karma test runner with lambdatest's selenium cloud grid to run JavaScript unit tests",
+  "description": "An example of using the Karma test runner with lambdatest's selenium cloud grid to run React unit tests",
   "main": "karma.conf.js",
   "scripts": {
     "test": "karma start karma.conf.js"
@@ -14,12 +14,16 @@
   "author": "lambdatest",
   "license": "MIT",
   "devDependencies": {
-    "karma": "^4.0.1",
+   
+    "globals": "^15.12.0",
+    "jasmine": "^5.5.0",
+    "karma": "^4.4.1",
     "karma-chrome-launcher": "^0.1.2",
     "karma-firefox-launcher": "^0.1.3",
+    "karma-jasmine": "^0.2.3",
+    "karma-mocha-reporter": "^0.3.2",
     "karma-safari-launcher": "^0.1.1",
-    "karma-webdriver-launcher": "^1.0.5",
-    "karma-mocha-reporter": "^0.3.1",
-    "karma-jasmine": "^0.2.2"
+    "karma-webdriver-launcher": "^1.0.8"
+   
   }
 }

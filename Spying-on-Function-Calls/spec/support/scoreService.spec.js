@@ -169,6 +169,7 @@ describe('calculateScore with spy configurations', () => {
 
         // Verify the spies and result
         expect(fetchDataSpy).toHaveBeenCalledWith(userId);
+        expect(applyMultiplierSpy).toHaveBeenCalledWith(100, multiplier);
         expect(result).toBe(200); // 100 points * 2 multiplier
     });
 
@@ -198,3 +199,8 @@ describe('calculateScore with spy configurations', () => {
         expect(result).toBe(102); // 100 points + 2 multiplier
     });
 });
+
+
+
+// spyOn(myObject, 'myMethod');
+
